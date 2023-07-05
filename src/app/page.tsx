@@ -10,7 +10,7 @@ const geo = Geo(
 export default function Home() {
   return (
       <div className={geo.className}>
-<h1 className='text-center text-2xl text-white'>hello world.</h1>
+<h1 className='text-center text-2xl text-white'>hello world!!.</h1>
       </div>
   )
 }
