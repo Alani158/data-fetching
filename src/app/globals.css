@@ -3,9 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  background-color:#11126A;
+  background-image: url('https://i.pinimg.com/originals/83/be/32/83be325e2d434d410339a95622877f70.jpg');
+
+ background-size:cover;
+ top: 0;
+
+image-rendering:optimizeQuality ;
+background-position: center;
+height:100vh;
+
 }
 
 @media (prefers-color-scheme: dark) {
