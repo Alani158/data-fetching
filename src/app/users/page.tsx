@@ -13,7 +13,9 @@ export default async function Users() {
     return(
         <p className="text-white text-lg text-center" key={user.id}>
           <Link href={`/users/${user.id}`} >{user.name}</Link>
+           <p>hello</p>
         </p>
+       
     )
   })}
     </div></>
